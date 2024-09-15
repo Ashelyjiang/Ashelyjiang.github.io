@@ -216,10 +216,10 @@ try {
     // 自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
         `<b>
-            <center style="font-family: 'LXGW WenKai Screen', sans-serif; font-size: 1.2em;">🎉 来自站长的问候 🎉</center>
+            <center style="font-family: 'LXGW WenKai GB Screen', sans-serif; font-size: 1.2em;">🎉 来自站长的问候 🎉</center>
             &emsp;&emsp;欢迎来自 <span style="font-size: 1.6em; font-weight: bold; font-family: 'KaiTi', 'SimKai', '楷体', serif; color: #FFA500;">${pos}</span> 的小伙伴，
             ${timeChange}您现在距离我约 <span style="font-size: 1.6em; font-weight: bold; font-family: 'KaiTi', 'SimKai', '楷体', serif; color: #FFA500;">${dist}</span> 公里，
-            <span style="font-family: 'LXGW WenKai Screen', sans-serif;">${posdesc}</span>
+            <span style="font-family: 'LXGW WenKai GB Screen', sans-serif;">${posdesc}</span>
         </b>`;
 } catch (err) {
     // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
